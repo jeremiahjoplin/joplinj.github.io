@@ -1,0 +1,197 @@
+/**
+ * Common Styles
+ */
+
+ body {
+    color: #3e3e3e;
+    margin: 0;
+ }
+
+ h1 {
+   text-align: center;
+ }
+
+.social img {
+    padding: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.business-hours {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.business-hours li {
+  padding: 5px;
+}
+
+/**
+ * Navigation
+ */
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li {
+  display: inline-block;
+  border-bottom: 2px solid #FFF;
+}
+
+.nav li:hover {
+  font-weight: 500;
+  border-bottom: 2px solid #000;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center
+}
+
+/**
+ * Carousel
+ */
+
+ .slide {
+   height: 600px;
+   overflow: hidden;
+   display: none;
+   position: relative;
+    text-align: center;
+    color: white;
+ }
+
+ .slide h1 {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+/**
+ * Layout
+ */
+
+ .container {
+   width: 70%;
+   margin: 0 auto;
+ }
+
+ img.avatar {
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   padding: 3px;
+   border: 1px solid #000;
+ }
+
+ /**
+  * Reviews
+  */
+
+.review quote {
+  padding: 15px;
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.review img {
+    margin-right: 10px;
+}
+.review {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+ /**
+  * Menu
+  */
+
+  .menu {
+    width: 80%;
+    border: 1px dashed #e6e6e6;
+    padding: 2em;
+    margin: 0 auto;
+  }
+
+  .menu ul {
+      list-style: none;
+  }
+
+ /**
+  * Form
+  */
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    padding: 1.5em 0 0 0;
+  }
+
+  input[type=text], textarea {
+    border-radius: 2px;
+    border: 2px solid #C6C6C6;
+  }
+
+  input[type=text] {
+    height: 30px;
+    width: 300px;
+    margin: 10px 0;
+  }
+
+  input[type=submit] {
+    background: green;
+    color: white;
+    margin: 10px 0;
+    padding: 1.5em;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .main-img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;`
+  }
+
+
+.btn, .btn:hover {
+  background: green;
+  color: white;
+  margin: 20px auto 0 auto;
+  padding: 0.5em;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+}
+
+.footer {
+  height: 200px;
+}
